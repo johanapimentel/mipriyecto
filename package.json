@@ -1,0 +1,19 @@
+{
+  "name": "mipriyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanapimentel/mipriyecto.git"
+  },
+  "author": "Vanessa Pimentel <johanapimentel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanapimentel/mipriyecto/issues"
+  },
+  "homepage": "https://github.com/johanapimentel/mipriyecto#readme"
+}
