@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/tailwind.css">
     <title>Mi proyecto</title>
 </head>
 <body>
-    <nav>
-        <img src="/src/img/logo.svg" alt="logo">
-        <ul>
-            <li>Inicio</li>
-            <li>Servicios</li>
-            <li>Galeria</li>
-            <li>Buscar</li>
-            <li>Compras</li>
-            <li>LLamada</li>
+    <nav class="w-full h-auto flex justify-between">
+        <img class="w-8 h-8" src="/public/img/logo.png" alt="logo">
+        <ul class="flex justify-start">
+            <li class="pl-2">Inicio</li>
+            <li class="pl-2">Servicios</li>
+            <li class="pl-2">Galeria</li>
+        </ul>
+        <ul class="flex justify-between">
+            <li class="ml-4 w-6 h-6"><img src="/public/icons/search.svg" alt=""></li>
+            <li class="ml-4 w-6 h-6"><img src="/public/icons/icon_shopping_cart.svg" alt=""></li>
+            <li class="ml-4 w-6 h-6"><img src="/public/icons/call.png" alt=""></li>
         </ul>
     </nav>
-    <section id="main" class="main">
-        <img src="https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?cs=srgb&dl=pexels-saviesa-home-2089698.jpg&fm=jpg" alt="cocina modular">
+    <section id="main" class="">
+        <img class="w-full h-1/2 bg-cover" src="https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?cs=srgb&dl=pexels-saviesa-home-2089698.jpg&fm=jpg" alt="cocina modular">
         <section id="services" class="">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <h2 class="text-yellow-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illo odio! Impedit tempore illum nisi earum excepturi tempora veniam dolore, ab, in voluptates minus sunt facere voluptatum? Cumque, adipisci dolore.</p>
             <img src="https://images.pexels.com/photos/2398375/pexels-photo-2398375.jpeg?cs=srgb&dl=pexels-diego-%F0%9F%9A%80-2398375.jpg&fm=jpg" alt="cocina modular">
             <section>
@@ -39,7 +42,7 @@
                 </section>
             </section>
         </section>
-        <section id="galeria" class="">
+        <section id="galeria" class="bg-gray-100">
             <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illo odio! Impedit tempore illum nisi earum excepturi tempora veniam dolore, ab, in voluptates minus sunt facere voluptatum? Cumque, adipisci dolore.</p>
             <img src="https://images.pexels.com/photos/2398375/pexels-photo-2398375.jpeg?cs=srgb&dl=pexels-diego-%F0%9F%9A%80-2398375.jpg&fm=jpg" alt="cocina modular">
@@ -78,7 +81,7 @@
             </section>
         </section>
     </section>
-    <footer>
+    <footer class="bg-gray-100">
         <section>
             <ul>
                 <li>Inicio</li>
@@ -87,13 +90,13 @@
                 <li>Compras</li>
             </ul>
             <ul>
-                <li><img src="/src/img/logo.svg" alt="logo"></li>
+                <li><img src="public/img/logo.png" alt="logo"></li>
                 <li>Acerca de</li>
                 <li>Mision</li>
                 <li>Vision</li>
             </ul>
             <ul>
-                <li>correo@example.com</li>
+                <li>correo@exammle.com</li>
                 <li>direccion</li>
                 <li>Telefono</li>
                 <li>
